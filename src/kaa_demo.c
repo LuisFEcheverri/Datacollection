@@ -55,7 +55,7 @@ static void periodically_callback(void *context)
     current_time=0;
         float temperature = get_temperature_sample();
         printf("Sampled temperature is close to: %d\n", (int)temperature);
-        kaa_user_log_record_t *log_record = kaa_logging_temperature_data_collection_schema_create();
+        kaa_user_log_record_t *log_record = kaa_logging_data_collection_schema_create();
         log_record->temperature = temperature;
         kaa_logging_add_record(kaa_client_get_context(context)->log_collector, log_record, NULL);
     }
