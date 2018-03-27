@@ -10,7 +10,7 @@
 /* File:         Datacollection
    Desined by:   Luis Felipe Echeverri
                  Alberth Moreno
-				         Juan Manuel Gomez
+				 Juan Manuel Gomez
 				 
    Description:  This code implements a simple datacollection device, with possibility to change 
                  sampletime through configuration system 
